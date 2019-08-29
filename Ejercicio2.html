@@ -8,13 +8,15 @@
 </head>
 <body>
     
+
+   
     <script>
     const subsidioT = 97002
 
-    hr = parseFloat(prompt("Digite el numero de horas trabajadas: "));
-    vh = parseFloat(prompt("Digite el valor de la hora: "));
-    pcomision = parseFloat(prompt("Digite el porcentaje de la comision: "));
-    ventas = parseFloat(prompt("Digite el monto total de las ventas: "));
+    hr = parseFloat(prompt("ingrese el numero de horas lavoradas: "));
+    vh = parseFloat(prompt("ingrese el valor de la hora: "));
+    pcomision = parseFloat(prompt("ingrese el porcentaje de la comision: "));
+    ventas = parseFloat(prompt("ingrese el monto total de las ventas: "));
 
     comision = ventas * (pcomision/100);
     sueldoinicial = hr * vh;
@@ -28,7 +30,7 @@
     if (sueldoneto<=828116){
         sueldoneto=sueldoneto+subsidioT;
         console.log("Tiene subsidio de transporte. ");
-    }
+    }      
 
     </script>
 
